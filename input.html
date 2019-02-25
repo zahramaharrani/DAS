@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Tambah Data</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="resources/css/bootstrap.min.css">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="resources/css/input.css">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="resources/css/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="resources/css/jquery.dataTables.min.css">
+    <!-- Font Awesome JS -->
+    <script defer src="resources/js/solid.js"></script>
+    <script defer src="resources/js/fontawesome.js"></script>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header" align="center">
+                <h3>Header</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                  <li>
+                    <a href="index.html"><i class="fas fa-home" style="margin-right: 5px;"></i>Home</a>
+                </li>
+                <li>
+                    <a href="input.html"><i class="fas fa-address-book" style="margin-right: 5px;"></i>Tambah Data</a>
+                </li>
+                <li>
+                    <a href="output.html"><i class="fas fa-sync-alt" style="margin-right: 5px;"></i>Trash</a>
+                </li>
+                <li>
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false"></a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Page Content  -->
+        <!-- <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-align-left"></i>
+                        <span>Toggle Sidebar</span>
+                    </button> -->
+        <div id="content">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button type="button" id="sidebarCollapse" class="btn btn-blue">
+              <i class="fas fa-align-left"></i>
+              <span></span>
+            </button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </nav>
+            </nav>
+            <div class="jumbotron jumbotron-fluid">
+              <div class="container">
+                <h1 class="display-4 displayclr">Tambah Data</h1>
+                <p class="lead">Anda sedang berada dalam laman Tambah Data.</p>
+              </div>
+            </div>
+              <div class="container-fluid">
+          <a href="nextpage/tambah.html"><button type="button" class="btn btn-primary">
+            <i class="fas fa-plus"></i>
+          </button></a>
+          <div class="table-responsive">
+                <br>
+              <table id="myTable" class="display" style="width:100%">
+                <thead>
+                  <tr>
+                    <th>ID Mahasiswa</th>
+                    <th>NIS</th>
+                    <th>Nama</th>
+                    <th>TTL</th>
+                    <th>Alamat</th>
+                    <th>Email</th>
+                    <th>No HP</th>
+                    <th>Opsi</th>
+                  </tr>
+                </thead>
+                <tfoot>
+                  <tr>
+                    <th>ID Mahasiswa</th>
+                    <th>NIS</th>
+                    <th>Nama</th>
+                    <th>TTL</th>
+                    <th>Alamat</th>
+                    <th>Email</th>
+                    <th>No HP</th>
+                    <th>Opsi</th>
+                  </tr>
+                </tfoot>
+              </table>
+            </div>
+                <!-- <div class="table-responsive">
+                  <br>
+                <table class="table table-hover">
+                  <thead>
+                    <tr>
+                      <th scope="col">Nama</th>
+                      <th scope="col">Alamat</th>
+                      <th scope="col">JK</th>
+                      <th scope="col">No Tlp</th>
+                      <th scope="col">ID Anggota</th>
+                      <th scope="col">Aksi</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Mark</td>
+                      <td>Otto</td>
+                      <td>@mdo</td>
+                      <td>@mdo</td>
+                      <td>@mdo</td>
+                      <td><a href="ubah-data-anggota.html"><button type="button" class="btn btn-primary"><i class="fas fa-wrench"></i></button></a><a href="#" onclick="return hapus_confirm()"><button type="button" class="btn btn-danger"><i class="fas fa-trash-alt"></i></button></a></td>
+                    </tr>-->
+    <script src="resources/js/jquery-3.3.1.min.js"></script>
+    <!-- Popper.JS -->
+    <script src="resources/js/popper.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="resources/js/bootstrap.min.js"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="resources/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="resources/js/jquery.dataTables.min.js"></script>
+    <script src="resources/js/jstable.js"></script>
+    <script src="resources/js/scrollbar.js"></script>
+</body>
+
+</html>
